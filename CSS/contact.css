@@ -1,0 +1,33 @@
+.container{
+    height: 85vh;
+}
+.contact-content{
+
+    height: 390px;
+    display: block;
+    position: relative;
+    margin:20px auto 20px auto;
+    margin: auto;
+
+}
+
+.contact-content::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: url('../Images/image2.webp') no-repeat center center/cover;
+    width: 100%;
+    height: inherit;
+    opacity: 0.35;
+    z-index: -1;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-box input , textarea{
+    width: 70vw;
+    padding: 10px 20px;
+    margin: 5px;
+}

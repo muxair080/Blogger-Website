@@ -1,0 +1,14 @@
+
+.Container{
+
+    margin: 100px 10%;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    list-style: none;
+    font-size: larger;
+}

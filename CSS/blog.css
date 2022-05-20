@@ -1,0 +1,49 @@
+.post-img {
+    position: relative;
+   margin-top: 20px;
+}
+.post-img img{
+    width: 100vw;
+}
+
+.blog-post-content{
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 1.3rem;
+}
+.blog-post-content h1{
+    text-align: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.more-post{
+    flex-direction: column;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.blogpostmeta{
+    display: flex;
+    justify-content: space-between;
+}
+.author-info{
+    margin-bottom: 10px ;
+}
+.author-info div{
+    position: relative;
+    top: -13px;
+   font-size: 0.9rem;
+   font-family: cursive;
+}
+
+.social{
+    cursor: pointer;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
